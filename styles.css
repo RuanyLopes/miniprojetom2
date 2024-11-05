@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* Define a cor de fundo */
+}
+
+h1 {
+    text-align: center; /* Centraliza o título */
+}
+
+form {
+    display: flex;
+    justify-content: center; /* Centraliza o formulário horizontalmente */
+    margin-bottom: 20px;
+}
+
+input {
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Define bordas arredondadas */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745; /* Define a cor de fundo do botão */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer; /* Define o cursor como pointer ao passar sobre o botão */
+}
+
+button:hover {
+    background-color: #218838; /* Muda a cor de fundo do botão ao passar o mouse */
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between; /* Distribui o conteúdo igualmente */
+    align-items: center; /* Alinha os itens ao centro */
+}
+
+li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #dc3545; /* Define a cor de fundo do botão de deletar */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #c82333; /* Muda a cor de fundo do botão de deletar ao passar o mouse */
+}
